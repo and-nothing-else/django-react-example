@@ -1,0 +1,11 @@
+@import "settings"
+@import "mixins"
+
+
+.content-list
+  +list-unstyled()
+  padding: $grid-gutter-width 0
+
+  &__item
+    margin-bottom: $grid-gutter-width
+    transition: all $hover-transition-duration ease
